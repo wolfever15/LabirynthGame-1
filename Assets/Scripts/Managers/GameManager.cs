@@ -41,8 +41,8 @@ public class GameManager : MonoBehaviour
         if (timeToEnd <= 0f)
         {
             timeToEnd = 0;
-           
-        }else win = true;
+            endGame = true;
+        }
 
         if (endGame) EndGame();
 
